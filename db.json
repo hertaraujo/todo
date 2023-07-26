@@ -1,0 +1,6 @@
+{
+  "todos": [
+    { "id": 1, "title": "cleaning", "description": "Clean entire house" },
+    { "id": 2, "title": "homework", "description": "Do math homework" }
+  ]
+}
