@@ -1,6 +1,39 @@
 {
   "todos": [
-    { "id": 1, "title": "cleaning", "description": "Clean entire house" },
-    { "id": 2, "title": "homework", "description": "Do math homework" }
+    {
+      "title": "Homework",
+      "description": "Do all math homework",
+      "id": 1
+    },
+    {
+      "title": "Clean the House",
+      "description": "Vacuum the floors, dust the furniture, and organize the living room.",
+      "id": 2
+    },
+    {
+      "title": "Buy Groceries",
+      "description": "Make a list and go to the grocery store to stock up on essentials and fresh produce.",
+      "id": 3
+    },
+    {
+      "title": "Exercise",
+      "description": "Go for a 30-minute jog or do a home workout to stay active and healthy.",
+      "id": 4
+    },
+    {
+      "title": "Read a Book",
+      "description": "Spend at least 20 minutes reading a book of your choice to unwind and gain knowledge.",
+      "id": 5
+    },
+    {
+      "title": "Prepare for Presentation",
+      "description": "Gather information, create slides, and rehearse for an upcoming presentation at work/school.",
+      "id": 6
+    },
+    {
+      "title": "phone",
+      "description": "Check phone",
+      "id": 7
+    }
   ]
 }

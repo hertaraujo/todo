@@ -1,16 +1,15 @@
 import { api } from '@/services/api';
 import useSWR from 'swr';
 
-export const useTodos = (url: string) => {
-  const { data, isLoading, error, mutate } = useSWR(
+export const useFetcher = <Data>(url: string) => {
+  const { data, isLoading, error, mutate } = useSWR<Data>(
     url,
     async (url: string) => {
       const { data } = await api.get(url);
+
       return data;
     },
   );
-
-  console.log(data);
 
   return { data, isLoading, error, mutate };
 };

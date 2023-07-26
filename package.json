@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "serve": "pnpm json-server --watch db.json --port 3001 --delay 1000"
   },
   "dependencies": {
     "@types/node": "20.4.5",
